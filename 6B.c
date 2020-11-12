@@ -118,7 +118,18 @@ for (int i = 0; i < 3; i++)//将二进制小文件进行合并
 }
 fclose(sheet_bin);
 //对父进程文件进行打印
-sheet_bin=fopen("sheet_whole","rb");
+ sheet_bin=fopen("sheet_whole","rb");
+//  char ch;
+//  ch=fgetc(sheet_bin);
+//  while (ch!=EOF)
+//  {
+// 	 putchar(ch);
+// 	 ch=fgetc(sheet_bin);
+
+//  }
+//  fclose(sheet_bin);
+ 
+
 df sheet_father[3][4];
 fread(sheet_father[0][0].data,20,12,sheet_bin);
  for (int i = 0; i < 3; i++)

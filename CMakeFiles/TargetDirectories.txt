@@ -1,0 +1,3 @@
+/home/liuw20/桌面/代码提交/homework6/CMakeFiles/rebuild_cache.dir
+/home/liuw20/桌面/代码提交/homework6/CMakeFiles/main.dir
+/home/liuw20/桌面/代码提交/homework6/CMakeFiles/edit_cache.dir

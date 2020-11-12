@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liuw20/桌面/代码提交/homework6/6B.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+
